@@ -147,7 +147,8 @@ textarea {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
   .btn:hover {
-    transform: translateY(-3px); }
+    transform: translateY(-3px);
+  background-color: #6baae0; }
   .btn--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem; }
@@ -563,10 +564,14 @@ textarea {
       padding-right: 50px;
       padding-top: 10px;
       padding-bottom: 10px;
-      background-color: #333;
+      background-color: rgb(197, 186, 186);
       margin-left: 20px;
       margin-bottom: 50px;
     }
+    .seeMore2:hover{
+      background-color: #333;
+    }
+
     @media only screen and (max-width: 37.5em) {
       .header__links {
         display: none; } }
